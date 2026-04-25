@@ -17,23 +17,29 @@ public class PruebaPato {
         PatoSeñuelo ps1 = new PatoSeñuelo();
         
         p1.mostrar();
-        p1.cuaquear();
-        p1.volar();
+        p1.RealizarCuaqueo();
+        p1.RealizarVuelo();
         p1.nadar();
+                
         System.out.println("");
+        
         pg1.mostrar();
-        pg1.cuaquear();
-        pg1.volar();
+        pg1.RealizarCuaqueo();
+        pg1.RealizarVuelo();
         pg1.nadar();
+        
         System.out.println("");
+        
         ps1.mostrar();
-        ps1.cuaquear();
-        ps1.volar();
+        ps1.RealizarCuaqueo();
+        ps1.RealizarVuelo();
         ps1.nadar();
+        
         System.out.println("");
+        
         pcr1.mostrar();
-        pcr1.cuaquear();
-        pcr1.volar();
+        pcr1.RealizarCuaqueo();
+        pcr1.RealizarVuelo();
         pcr1.nadar();
         
         
