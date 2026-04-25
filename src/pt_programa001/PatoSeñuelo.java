@@ -8,18 +8,16 @@ package pt_programa001;
  *
  * @author sistemas
  */
-public class PatoSeñuelo extends Pato implements Cuaqueable,Volable{
+public class PatoSeñuelo extends Pato {
 
+    public PatoSeñuelo(){
+        volable=new NoVuela();
+        cuaqueable= new CuaqueoMudo();
+    }
     @Override
     public void mostrar() {
         System.out.println("Yo soy PATO SEÑUELO");    }
 
-    @Override
-    public void cuaquear() {
-        System.out.println("<<Silencio>>");    }
-
-    @Override
-    public void volar() {
-        System.out.println("INCAPAZ DE VOLAR");    }
+ 
     
 }
